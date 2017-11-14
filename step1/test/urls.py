@@ -18,6 +18,7 @@ from django.contrib import admin
 # 公共URL配置
 urlpatterns = patterns(
     '',
+    url(r'^web/', include('web.urls')),
     # Django后台数据库管理
     url(r'^admin/', include(admin.site.urls)),
     # 用户登录鉴权--请勿修改
