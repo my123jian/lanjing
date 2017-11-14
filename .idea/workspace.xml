@@ -8,6 +8,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/conf/default.py" afterPath="$PROJECT_DIR$/conf/default.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/conf/settings_development.py" afterPath="$PROJECT_DIR$/conf/settings_development.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/conf/settings_production.py" afterPath="$PROJECT_DIR$/conf/settings_production.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/conf/settings_testing.py" afterPath="$PROJECT_DIR$/conf/settings_testing.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -82,7 +83,7 @@
         <entry file="file://$PROJECT_DIR$/conf/settings_testing.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="401">
-              <caret line="24" column="26" lean-forward="false" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
+              <caret line="24" column="17" lean-forward="false" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -499,7 +500,7 @@
     <entry file="file://$PROJECT_DIR$/conf/settings_testing.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="401">
-          <caret line="24" column="26" lean-forward="false" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
+          <caret line="24" column="17" lean-forward="false" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
           <folding />
         </state>
       </provider>
