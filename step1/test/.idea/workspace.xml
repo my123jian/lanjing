@@ -4,6 +4,7 @@
     <list default="true" readonly="true" id="cb030ab0-6260-41f0-b78f-999d92209dfc" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/conf/default.py" afterPath="$PROJECT_DIR$/conf/default.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/conf/settings_development.py" afterPath="$PROJECT_DIR$/conf/settings_development.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/conf/settings_testing.py" afterPath="$PROJECT_DIR$/conf/settings_testing.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home_application/urls.py" afterPath="$PROJECT_DIR$/home_application/urls.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home_application/views.py" afterPath="$PROJECT_DIR$/home_application/views.py" />
     </list>
@@ -21,6 +22,16 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="358">
               <caret line="118" column="8" lean-forward="false" selection-start-line="118" selection-start-column="8" selection-end-line="118" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings_testing.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/conf/settings_testing.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="24" column="26" lean-forward="false" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -60,7 +71,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/home_application/urls.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="351">
@@ -115,6 +126,7 @@
         <option value="$PROJECT_DIR$/web/views.py" />
         <option value="$PROJECT_DIR$/home_application/views.py" />
         <option value="$PROJECT_DIR$/home_application/urls.py" />
+        <option value="$PROJECT_DIR$/conf/settings_testing.py" />
       </list>
     </option>
   </component>
@@ -145,6 +157,11 @@
             <path>
               <item name="test" type="b2602c69:ProjectViewProjectNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="conf" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -216,8 +233,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="2002" y="-11" width="1609" height="1072" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2600395" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2600395" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32951945" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -281,14 +299,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/conf/default.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="118" column="8" lean-forward="false" selection-start-line="118" selection-start-column="8" selection-end-line="118" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/account/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -345,6 +355,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="351">
           <caret line="16" column="4" lean-forward="false" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conf/default.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="118" column="8" lean-forward="false" selection-start-line="118" selection-start-column="8" selection-end-line="118" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conf/settings_testing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="24" column="26" lean-forward="false" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
           <folding />
         </state>
       </provider>
