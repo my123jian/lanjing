@@ -6,7 +6,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/conf/default.py" afterPath="$PROJECT_DIR$/conf/default.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/conf/settings_development.py" afterPath="$PROJECT_DIR$/conf/settings_development.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/conf/settings_production.py" afterPath="$PROJECT_DIR$/conf/settings_production.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/conf/settings_testing.py" afterPath="$PROJECT_DIR$/conf/settings_testing.py" />
     </list>
@@ -49,6 +48,16 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="settings_development.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/conf/settings_development.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="507">
+              <caret line="24" column="26" lean-forward="false" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
@@ -69,11 +78,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings_development.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/conf/settings_development.py">
+      <file leaf-file-name="settings_production.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/conf/settings_production.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="507">
-              <caret line="24" column="26" lean-forward="false" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
+            <state relative-caret-position="349">
+              <caret line="23" column="27" lean-forward="false" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -83,17 +92,7 @@
         <entry file="file://$PROJECT_DIR$/conf/settings_testing.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="401">
-              <caret line="24" column="17" lean-forward="false" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tests.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lanjing/tests.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="24" column="26" lean-forward="false" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -131,9 +130,9 @@
       <list>
         <option value="$PROJECT_DIR$/settings.py" />
         <option value="$PROJECT_DIR$/conf/default.py" />
-        <option value="$PROJECT_DIR$/conf/settings_production.py" />
         <option value="$PROJECT_DIR$/conf/settings_development.py" />
         <option value="$PROJECT_DIR$/conf/settings_testing.py" />
+        <option value="$PROJECT_DIR$/conf/settings_production.py" />
       </list>
     </option>
   </component>
@@ -170,6 +169,11 @@
               <item name="trunk" type="b2602c69:ProjectViewProjectNode" />
               <item name="trunk" type="462c0819:PsiDirectoryNode" />
               <item name="conf" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="trunk" type="b2602c69:ProjectViewProjectNode" />
+              <item name="trunk" type="462c0819:PsiDirectoryNode" />
+              <item name="error_pages" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -417,22 +421,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/conf/settings_production.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="23" column="21" lean-forward="false" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/conf/settings_development.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="507">
-          <caret line="24" column="26" lean-forward="false" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lanjing/tests.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -497,10 +485,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/conf/settings_production.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="23" column="27" lean-forward="false" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conf/settings_development.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="507">
+          <caret line="24" column="26" lean-forward="false" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/conf/settings_testing.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="401">
-          <caret line="24" column="17" lean-forward="false" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+          <caret line="24" column="26" lean-forward="false" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="26" />
           <folding />
         </state>
       </provider>
